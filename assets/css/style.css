@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("/assets/images/sakura.png");
+    width: 100%;
+}
+
+header {
+    width: 100%;
+    border-bottom: 1px solid gray;
+    display: block;
+    margin-bottom: 20px
+}
+
+#mynamesection {
+    float: left;
+    margin-left: 20px;
+}
+
+#myname {
+    background-color: teal;
+    padding: 20px;
+    float: left;
+    color: white;
+}
+
+.wrapper {
+    width: 960px;
+    margin: 0 auto 0 auto;
+    top: 20px;
+    bottom: 40px;
+    border: 1px solid gray;
+    padding: 20px;
+}
+
+#content {
+
+}
+
+#headshot {
+    float: left;
+    width: 100px;
+    height: 150 px;
+    border: 1px solid #eeeeee;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
